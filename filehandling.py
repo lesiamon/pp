@@ -18,9 +18,13 @@ with open('lesi.txt', 'x'):
 import os
 os.remove('lesi.txt')
 '''
+'''
 import os 
 if os.path.exists('lesi.txt'):
      os.remove('lesi.txt')
 else:
     print("the file does not exist")
-     
+   '''
+import cowsay
+
+cowsay.cow("hello lesi")
